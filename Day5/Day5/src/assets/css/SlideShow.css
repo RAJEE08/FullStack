@@ -1,0 +1,22 @@
+/* SlideShow.css */
+
+/* Styles for the slideshow container */
+.slideshow {
+    width: 100%; /* Adjust width as needed */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  /* Style for the slide image */
+  .slideshow img {
+    display: block; /* Ensure the image fills the container */
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 2s ease; /* Smooth transition effect */
+    opacity: 0; /* Initially hide the image */
+  }
+  
+  /* Style for the active slide */
+  .slideshow img.active {
+    opacity: 1; /* Show the active image */
+  }
+  
