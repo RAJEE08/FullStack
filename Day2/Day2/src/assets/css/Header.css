@@ -1,0 +1,96 @@
+/* Header Styles */
+header {
+  background-color: #000000;
+  color: #ff0000;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the header stays on top of other content */
+}
+
+nav {
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+#list {
+  margin-left: 32cm;
+}
+
+nav ul li a {
+  color: #ff0000; /* Red color */
+  text-decoration: none;
+  font-weight: bold;
+  position: relative; /* Required for pseudo-element */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+  color: #670707; /* Dark red color */
+}
+
+/* Profile box styles */
+.profile-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 10cm;
+  width: 10cm;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1001; /* Ensure the profile box is above the header */
+}
+
+.profile-box::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1px;
+  height: 100%;
+  background-color: #ff0000; /* Red color */
+}
+
+.list{
+  margin-left: 33cm;
+}
+
+.profile-box .profile-picture {
+  float: left;
+  margin-right: 10px;
+}
+
+.profile-box .profile-picture img {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%;
+}
+
+.profile-box .user-info {
+  float: left;
+}
+
+.profile-box .user-info p {
+  margin: 0;
+  line-height: 1.5;
+}
