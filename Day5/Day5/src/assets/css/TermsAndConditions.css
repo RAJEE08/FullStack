@@ -1,0 +1,24 @@
+/* TermsAndConditions.css */
+
+.terms-and-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-and-conditions h2 {
+    color: #333;
+  }
+  
+  .terms-and-conditions h3 {
+    color: #555;
+  }
+  
+  .terms-and-conditions p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,63 @@
+/* TableInfo.css */
+
+.table-info-container {
+    display: flex;
+  }
+  
+  .table-info {
+    flex-grow: 1;
+    overflow-x: auto;
+  }
+  
+  .table-info table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-info th,
+  .table-info td {
+    border: 1px solid #ffbb00;
+    padding: 8px;
+  }
+  
+  .table-info th {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .table-info tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-info tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Additional styling for AdminSidebar */
+  .admin-sidebar {
+    width: 200px;
+    background-color: #000;
+    color: #ffbb00;
+    padding-top: 5cm;
+  }
+  
+  .admin-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-sidebar li {
+    padding: 10px;
+  }
+  
+  .admin-sidebar li a {
+    text-decoration: none;
+    color: #ffbb00;
+    display: block;
+  }
+  
+  .admin-sidebar li a:hover {
+    color: #750e0e;
+  }
+  
